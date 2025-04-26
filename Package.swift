@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "ButtonsKit",
+    platforms: [
+        .iOS(.v16), // oder höher, wenn du magst
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
